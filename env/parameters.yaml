@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:test-eks-irsa/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: dgozalo@cloudbees.com
+  token: vault:test-eks-irsa/pipelineUser:token
+  username: dgozalo
+prow:
+  hmacToken: vault:test-eks-irsa/prow:hmacToken
